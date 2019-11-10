@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/P5study.svg?branch=master)](https://travis-ci.org/lizmat/P5study)
-
 NAME
 ====
 
-P5study - Implement Perl 5's study() built-in
+P5study - Implement Perl's study() built-in
 
 SYNOPSIS
 ========
@@ -13,10 +11,10 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-This module tries to mimic the behaviour of the `study` function of Perl 5 as closely as possible.
+This module tries to mimic the behaviour of the `study` function of Perl as closely as possible.
 
-ORIGINAL PERL 5 DOCUMENTATION
-=============================
+ORIGINAL PERL DOCUMENTATION
+===========================
 
     study SCALAR
     study   Takes extra time to study SCALAR ($_ if unspecified) in
@@ -78,7 +76,7 @@ ORIGINAL PERL 5 DOCUMENTATION
 PORTING CAVEATS
 ===============
 
-Currently, `study` is a no-op in Perl 6. As it is in more recent Perl 5's.
+Currently, `study` is a no-op in Raku. As it is in more recent Perl's.
 
 AUTHOR
 ======
@@ -90,9 +88,9 @@ Source can be located at: https://github.com/lizmat/P5study . Comments and Pull 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

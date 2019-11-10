@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module P5study:ver<0.0.3>:auth<cpan:ELIZABETH>;
+unit module P5study:ver<0.0.4>:auth<cpan:ELIZABETH>;
 
 proto sub study(|) is export {*}
 multi sub study()   { }
@@ -10,7 +10,7 @@ multi sub study(\a) { }
 
 =head1 NAME
 
-P5study - Implement Perl 5's study() built-in
+P5study - Implement Perl's study() built-in
 
 =head1 SYNOPSIS
 
@@ -18,10 +18,10 @@ P5study - Implement Perl 5's study() built-in
 
 =head1 DESCRIPTION
 
-This module tries to mimic the behaviour of the C<study> function of Perl 5
+This module tries to mimic the behaviour of the C<study> function of Perl
 as closely as possible.
 
-=head1 ORIGINAL PERL 5 DOCUMENTATION
+=head1 ORIGINAL PERL DOCUMENTATION
 
     study SCALAR
     study   Takes extra time to study SCALAR ($_ if unspecified) in
@@ -82,7 +82,7 @@ as closely as possible.
 
 =head1 PORTING CAVEATS
 
-Currently, C<study> is a no-op in Perl 6.  As it is in more recent Perl 5's.
+Currently, C<study> is a no-op in Raku.  As it is in more recent Perl's.
 
 =head1 AUTHOR
 
@@ -93,9 +93,9 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
