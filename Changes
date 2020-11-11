@@ -2,6 +2,11 @@ Revision history for P5study
 
 {{$NEXT}}
 
+0.0.5  2020-11-11T22:42:02+01:00
+    - Change name of distribution
+    - Force to highest possible Raku version
+    - Update copyright year
+
 0.0.4  2019-11-10T19:56:42+01:00
     - Changed Perl 6 to Raku, and Perl 5 to Perl
 
